@@ -23,10 +23,6 @@ header ul{
 
 header li{
     display: inline-block;
-    /* padding-top: 4px;
-    padding-bottom: 4px;
-    padding-right: 8px;
-    padding-left: 8px; */
     padding: 4px 8px;
     font-size: 12px
 }
@@ -38,6 +34,10 @@ header li > a{
 
 header li > a:hover{
     color: royalblue;
+}
+
+.current{
+    border-bottom: 4px solid royalblue;
 }
 
 section{
@@ -52,4 +52,64 @@ section h1{
 
 section p{
     margin-top: 0;
+    font-size: 14px;
+}
+
+.icon{
+    border-radius: 50%;
+    border: 5px solid white;
+    /* box-shadow: x y blur color */
+    box-shadow: 0 0 5px gray;
+
+}
+
+.works{
+    width: 400px;
+    margin: 60px auto;
+    border-bottom: 1px solid gray;
+}
+
+.works h1, 
+.works p{
+    text-align: left;
+
+}
+
+.works > section{
+    margin-bottom: 40px 
+}
+
+footer{
+    width: 400px;
+    margin: 0 auto 60px;
+}
+
+footer ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    float: left;
+}
+
+footer li{
+    display: inline-block;
+}
+
+footer li > a:hover{
+    opacity: 0.6;
+}
+
+footer p{
+    color: lightgray;
+    font-size: 14px;
+    text-align: right;
+}
+
+.about{
+    width: 400px;
+    margin: 0 auto 60px;
+}
+
+.about p{
+    text-align: left;
 }
